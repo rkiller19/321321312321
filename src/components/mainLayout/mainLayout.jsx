@@ -3,15 +3,14 @@ import { useSelector } from 'react-redux'
 import { useEthers } from '@usedapp/core'
 import { UnsupportedChainIdError } from '@web3-react/core'
 
-import {
-  layout,
-  mainSection,
-  mainContent,
-  connectMessage,
-  connectMessageInnerContainer,
-  connectMessageInnerContainerTitle,
-} from './mainLayout.module.scss'
-import { SidebarNew, Header, Title, ConnectionStatus } from '../'
+import 
+  layout from './mainLayout.module.scss'
+import mainSection from './mainLayout.module.scss'
+import mainConten from './mainLayout.module.scss'
+import connectMessage from './mainLayout.module.scss'
+import connectMessageInnerContainer from './mainLayout.module.scss'
+import connectMessageInnerContainerTitle from './mainLayout.module.scss'
+
 import NETWORKS from '../../networks.json'
 import { supportedChains } from '../../constants'
 
