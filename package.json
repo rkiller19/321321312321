@@ -30,12 +30,7 @@
     "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{ts,tsx,js,jsx}\"",
     "linting": "eslint \"{,!(node_modules)/**/}*.{ts,tsx,js,jsx}\" --fix"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
